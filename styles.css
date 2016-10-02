@@ -1,3 +1,48 @@
 body {
 	background: blue;
+	color: yellow;
+}
+
+h1 {
+	text-align: center;
+	border: 5px solid white;
+	border-radius: 9px;
+	padding: 20px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+div {
+	margin: 70px;
+	padding: 20px;
+	border-radius: 9px;
+}
+
+#aboutme {
+	background-image: url("berkeley.jpg");
+}
+
+a {
+	color: white;
+}
+
+a:visited {
+	color: pink;
+}
+
+.newfont{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+footer {
+	padding: 10px;
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+}
+
+@media screen and (max-width: 400px){
+	body {
+		font-size: .6em;
+	}
 }
